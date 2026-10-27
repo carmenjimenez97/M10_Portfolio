@@ -1,0 +1,162 @@
+/* css styles */
+
+/* General website styling */
+
+body {
+  background-color: #FAFBFD;
+  color: #263449;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+}
+
+/* Hero section */
+
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    #14253B,
+    #355D87
+  );
+  color: white;
+  text-align: center;
+  padding: 80px 25px;
+}
+
+.hero-section h1,
+.hero-section h3 {
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+
+.hero-section h3 {
+  color: #DCE9F8;
+}
+
+/* Main content */
+
+.content-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+/* Section headings */
+
+.content-container h2 {
+  color: #14253B;
+  border-bottom: 2px solid #DCE6F1;
+  padding-bottom: 10px;
+  margin-top: 45px;
+}
+
+.content-container h3 {
+  color: #355D87;
+}
+
+/* Navigation bar */
+
+.navbar {
+  background-color: #14253B;
+}
+
+/* Links */
+
+a {
+  color: #2474B5;
+}
+
+a:hover {
+  color: #174A7A;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 45px 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}
+
+
+/* Hide the automatic page title on Home */
+body:has(.hero-section) #title-block-header {
+  display: none;
+}
+
+
+/* Improved professional hero layout */
+
+.hero-section {
+  padding: 65px 45px;
+}
+
+.hero-section .columns {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.hero-section .column:first-child {
+  text-align: left;
+}
+
+.hero-section .column:first-child h1 {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.hero-section .column:first-child h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.hero-section .profile-photo {
+  width: 220px;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+  margin: auto;
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .hero-section .columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-section .column:first-child,
+  .hero-section .column:first-child h1,
+  .hero-section .column:first-child h3 {
+    text-align: center;
+  }
+}
+
+
+/* Dashboard value boxes */
+.bslib-value-box .value-box-title {
+  font-size: 1rem !important;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.bslib-value-box .value-box-value {
+  font-size: 2.5rem;
+}
+

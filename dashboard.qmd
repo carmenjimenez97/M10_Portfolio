@@ -1,0 +1,112 @@
+
+---
+title: "RKR Customer Experience Dashboard"
+author: "Carmen Jimenez"
+format:
+  dashboard:
+    theme: cosmo
+editor: source
+---
+
+```{r}
+#| include: false
+
+library(ggplot2)
+
+# Simulated data for educational purposes
+ratings <- data.frame(
+  Category = c(
+    "Food Quality",
+    "Service Quality",
+    "Physical Environment"
+  ),
+  Average = c(4.3, 4.5, 4.1)
+)
+```
+
+## Row
+
+### Project Overview
+
+This dashboard explores customer experience and satisfaction at
+The Restaurant at Kellogg Ranch (RKR), as part of my
+MSDM Culminating Experience Project at Cal Poly Pomona.
+
+**Research objective:** Identify what customers value most
+and where improvements could enhance their dining experience.
+
+**Important:** All numerical results displayed here are
+simulated examples for educational purposes, not actual
+RKR customer survey findings.
+
+## Row
+
+
+::: {.valuebox}
+### Overall Satisfaction
+4.4 / 5
+:::
+
+::: {.valuebox}
+### Intention to Return
+85%
+:::
+
+::: {.valuebox}
+### Likelihood to Recommend
+88%
+:::
+
+
+## Row
+
+### Customer Experience Ratings
+
+```{r}
+
+#| echo: false
+#| warning: false
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: "100%"
+
+ggplot(ratings,
+       aes(x = reorder(Category, Average),
+           y = Average)) +
+  geom_col(fill = "#355D87", width = 0.55) +
+  geom_text(
+    aes(label = Average),
+    hjust = -0.3,
+    size = 5
+  ) +
+  coord_flip() +
+  scale_y_continuous(
+    limits = c(0, 5),
+    expand = expansion(mult = c(0, 0.05))
+  ) +
+  labs(
+    title = "Customer Experience Ratings",
+    subtitle = "Simulated survey results",
+    x = NULL,
+    y = "Average Rating (1–5)"
+  ) +
+  theme_minimal(base_size = 14)
+
+```
+
+## Row
+
+### Research Focus
+
+My research evaluates customer perceptions of:
+
+- Food quality, including taste and freshness
+- Service quality, including friendliness and attentiveness
+- Physical environment, including cleanliness and comfort
+- Overall customer satisfaction
+- Intention to return
+- Likelihood to recommend
+
+The goal is to translate customer feedback into
+actionable recommendations that can support service
+improvements and marketing decisions.

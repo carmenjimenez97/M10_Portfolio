@@ -1,0 +1,186 @@
+
+---
+title: "Home"
+title-block-banner: false
+page-layout: full
+toc: false
+---
+
+::: {.hero-section}
+
+::: {.columns}
+
+::: {.column width="65%"}
+
+# Carmen Lía Jiménez Rodríguez
+
+### Marketing Strategy | Digital Marketing | Customer Insights
+
+**MS in Digital Marketing & Analytics**
+
+California State Polytechnic University, Pomona
+
+Turning business experience, creativity, and data into meaningful marketing strategies.
+
+:::
+
+::: {.column width="35%"}
+
+![](images/profile.jpg){.profile-photo}
+
+:::
+
+:::
+
+:::
+
+
+::: {.content-container}
+
+## Hello, I'm Carmen!
+
+I'm a marketing professional originally from Santa Cruz, Bolivia, currently pursuing a Master of Science in Digital Marketing & Analytics at California State Polytechnic University, Pomona.
+
+With a bachelor's degree in Commercial Engineering and professional experience in commercial management, marketing strategy, and customer service, I bring a business-oriented perspective to digital marketing and analytics.
+
+Throughout my professional journey, I have developed a passion for understanding customers, identifying market opportunities, and creating strategies that help businesses grow.
+
+Today, I'm expanding my analytical and technical skills to connect marketing decisions with data-driven insights.
+
+---
+
+## My Professional Journey
+
+My experience combines business management, marketing, customer relationships, and analytical problem-solving.
+
+### Commercial & Marketing Manager
+**Cabañas Campeche | Bolivia | 2020–2025**
+
+- Led commercial and marketing activities for a hospitality business.
+- Developed marketing strategies to attract customers and support retention.
+- Designed commercial initiatives to support occupancy growth.
+- Managed customer service, operations, and administrative activities.
+
+### Search Engine Marketing Intern
+**Wellness Ranch Equine Assisted Therapy | 2026**
+
+- Conducted keyword research and competitor analysis.
+- Evaluated SEO and SEM opportunities.
+- Developed search marketing recommendations.
+- Analyzed the organization's digital presence to identify potential improvements.
+
+### Marketing & Logistics Intern
+**BIGDAM | Bolivia | 2019–2020**
+
+- Supported marketing campaigns and advertising coordination.
+- Assisted with international operations documentation.
+
+### Administrative Intern
+**SOFÍA LTDA | Bolivia | 2018**
+
+- Supported sales operations and customer follow-up.
+- Assisted with telemarketing performance evaluation.
+
+---
+
+## Education
+
+### California State Polytechnic University, Pomona
+**Master of Science in Digital Marketing & Analytics**
+
+Currently pursuing graduate studies focused on marketing analytics, consumer behavior, digital strategy, and data-driven decision-making.
+
+### UAGRM Business School
+**Graduate Diploma in International Trade | 2022**
+
+**Graduate Diploma in Foreign Trade | 2021**
+
+### Universidad Privada de Santa Cruz de la Sierra (UPSA)
+**Bachelor's Degree in Commercial Engineering | 2020**
+
+---
+
+## Marketing & Analytics Skills
+
+::: {.columns}
+
+::: {.column width="50%"}
+### Marketing Strategy
+
+- Digital Marketing
+- Search Engine Marketing
+- Content Marketing
+- Social Media Marketing
+- Keyword Research
+- Market Research
+- Customer Experience
+:::
+
+::: {.column width="50%"}
+### Analytics & Technology
+
+- Google Analytics 4
+- Google Ads
+- R and RStudio
+- Quarto
+- SQL and BigQuery
+- Data Visualization
+- Survey Research
+:::
+
+:::
+
+---
+
+## Certifications
+
+- Google Ads Display Certification
+- HubSpot Reporting
+- Semrush Content Marketing (SEO & AI)
+- Semrush Off-Page SEO Essentials
+- Semrush On-Page SEO Essentials
+- Semrush Keyword Research Essentials
+
+---
+
+## Featured Projects
+
+### The Restaurant at Kellogg Ranch
+
+**Customer Experience & Satisfaction Research**
+
+As part of my Culminating Experience Project at Cal Poly Pomona, I am contributing to research focused on understanding customer satisfaction and improving the restaurant's customer experience.
+
+My research examines food quality, service quality, physical environment, overall satisfaction, intention to return, and likelihood to recommend.
+
+### Wellness Ranch
+
+**Search Engine Marketing Strategy**
+
+Developed research-based recommendations to support online visibility through keyword research, competitor analysis, and SEO/SEM practices.
+
+### Cabañas Campeche
+
+**Commercial Strategy & Hospitality Marketing**
+
+Applied marketing and commercial management practices to support customer acquisition, customer retention, and occupancy performance.
+
+---
+
+## Professional Goals
+
+My goal is to continue developing my career in digital marketing, marketing strategy, and customer analytics.
+
+I want to combine my professional business experience with advanced analytical skills to help organizations understand their customers, optimize marketing performance, and make better strategic decisions.
+
+---
+
+## Beyond Marketing
+
+Originally from Bolivia, I enjoy connecting with people from different backgrounds and learning from new experiences.
+
+My years playing competitive basketball helped me develop discipline, perseverance, teamwork, and a strong commitment to continuous improvement.
+
+I bring these same values to my academic and professional journey.
+
+:::

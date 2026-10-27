@@ -1,0 +1,39 @@
+
+---
+title: "RKR Customer Experience Research"
+description: "Exploring customer satisfaction at The Restaurant at Kellogg Ranch."
+categories:
+  - Customer Experience
+  - Marketing Research
+  - Analytics
+date: 2026-10-27
+---
+
+## Project Overview
+
+This project is part of my Master of Science in Digital Marketing & Analytics Culminating Experience Project at Cal Poly Pomona.
+
+My research focuses on understanding customer experiences at The Restaurant at Kellogg Ranch.
+
+## Research Focus
+
+The study evaluates:
+
+- Food Quality
+- Service Quality
+- Physical Environment
+- Overall Customer Satisfaction
+- Intention to Return
+- Likelihood to Recommend
+
+## Project Goal
+
+The objective is to identify what customers value most and explore opportunities to improve the dining experience.
+
+## Dashboard
+
+[Explore my RKR Customer Experience Dashboard](../dashboard.qmd)
+
+**Project Status:** Research in progress.
+
+The dashboard contains simulated data for educational purposes, not actual customer survey findings.

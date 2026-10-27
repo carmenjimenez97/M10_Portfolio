@@ -1,0 +1,49 @@
+
+---
+title: "My Projects and Portfolio"
+subtitle: "Exploring My Academic and Professional Work"
+format: html
+toc: true
+editor: source
+
+listing:
+  contents: "projects/*.qmd"
+  type: grid
+  sort: "date desc"
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---
+
+
+## Explore My Projects
+
+Welcome to my project portfolio!
+
+This section highlights selected academic and professional experiences that demonstrate my interests in digital marketing, customer insights, business strategy, and data analytics.
+
+## What Are Quarto Listings?
+
+Quarto Listings are a feature that allows website creators to organize and display collections of content, such as a
+Articles, projects, academic assignments, and portfolio entries.
+
+Listings help visitors discover relevant information through structured project collections.
+
+## Featured 
+
+
+::: {#listing-projects}
+:::
+
+
+::: {.callout-note}
+## My Professional Journey
+
+My projects reflect the combination of my previous experience in commercial management and my current graduate studies in Digital Marketing & Analytics at Cal Poly Pomona.
+:::
+
+## How Listings Support My Portfolio
+
+Using Quarto Listings, I can organize projects by category, description, and publication date.
+
+This makes my portfolio easier to navigate, update, and expand as I complete additional academic and professional projects.

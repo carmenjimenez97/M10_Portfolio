@@ -1,0 +1,26 @@
+
+
+project:
+  type: website
+
+website:
+  title: "Carmen Jiménez | Portfolio"
+  navbar:
+    background: "#14253B"
+    foreground: white
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: RKR Dashboard
+      - href: css-scss.qmd
+        text: CSS / SCSS
+      - href: listings.qmd
+        text: My Projects
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+

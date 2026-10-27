@@ -1,0 +1,137 @@
+
+---
+title: "Website Design with CSS and SCSS"
+subtitle: "Customizing My Professional Portfolio with Quarto"
+format: html
+toc: true
+toc-depth: 2
+editor: source
+---
+
+## Introduction
+
+A professional website should be visually appealing, easy to navigate, and consistent across its pages.
+
+While developing my Quarto portfolio, I explored how CSS and SCSS can improve website design, readability, and the overall user experience.
+
+## What Is CSS?
+
+CSS (Cascading Style Sheets) is a styling language used to control the visual appearance of web pages.
+
+CSS allows developers to customize:
+
+- Colors and backgrounds
+- Fonts and typography
+- Spacing and alignment
+- Navigation menus
+- Images and borders
+- Responsive layouts
+
+For my portfolio, I created a separate file named `styles.css` to customize the website's appearance.
+
+## How I Applied CSS to My Portfolio
+
+### 1. Creating a Professional Color Palette
+
+I selected navy blue, soft blue, and white to create a professional visual identity.
+
+```css
+body {
+  background-color: #FAFBFD;
+  color: #263449;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+```
+
+### 2. Designing the Hero Section
+
+I used a gradient background to highlight my name, professional background, and photograph.
+
+```css
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    #14253B,
+    #355D87
+  );
+  color: white;
+  padding: 65px 45px;
+}
+```
+
+### 3. Customizing My Professional Photograph
+
+CSS allowed me to adjust the size, shape, and presentation of my profile picture.
+
+```css
+.profile-photo {
+  width: 220px;
+  height: 285px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 4px solid white;
+}
+```
+
+### 4. Improving Mobile Responsiveness
+
+Responsive design allows websites to adapt to different screen sizes.
+
+```css
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 20px;
+  }
+
+  .hero-section .columns {
+    flex-direction: column;
+  }
+}
+```
+
+## What Is SCSS?
+
+SCSS (Sassy CSS) is a syntax of Sass, a CSS preprocessor that extends traditional CSS.
+
+SCSS supports features such as variables, nesting, and reusable styling rules.
+
+For example:
+
+```scss
+$primary-color: #14253B;
+$secondary-color: #355D87;
+
+.navbar {
+  background-color: $primary-color;
+
+  a {
+    color: white;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+```
+
+This example demonstrates how SCSS can make styles easier to organize and maintain.
+
+**Note:** My portfolio currently uses a CSS stylesheet. The SCSS example above demonstrates an additional customization technique.
+
+## CSS vs. SCSS
+
+| Feature | CSS | SCSS |
+|---|---|---|
+| Basic styling | Yes | Yes |
+| Variables | Native custom properties | Sass variables |
+| Nesting | Supported in modern CSS | Supported |
+| Mixins | No native equivalent | Yes |
+| Compilation | Used directly by browsers | Compiled into CSS |
+
+## What I Learned
+
+Creating this website helped me understand how Quarto combines content, structure, and styling.
+
+By separating my content into QMD files and my design into a CSS file, I can maintain a consistent visual identity across my professional portfolio.
+
+These techniques are especially valuable in digital marketing because website design influences readability, navigation, user experience, and how visitors interact with online content.
